@@ -1,0 +1,22 @@
+CAN_FIlter_Helper.hpp:6:6:void CAN_Filter_Init(CAN_HandleTypeDef*, uint32_t, uint32_t, uint32_t, uint32_t)	64	static
+A4960_Helper.hpp:43:1:A4960_Helper::A4960_Helper(SPI_HandleTypeDef*, GPIO_TypeDef*, uint16_t, TIM_HandleTypeDef*, uint32_t)	24	static
+A4960_Helper.hpp:52:1:A4960_Helper::~A4960_Helper()	16	static
+A4960_Helper.hpp:55:6:void A4960_Helper::init()	24	static
+A4960_Helper.hpp:94:6:void A4960_Helper::run(int32_t)	32	static
+A4960_Helper.hpp:120:9:uint8_t A4960_Helper::update_direction(int)	32	static
+A4960_Helper.hpp:145:9:int16_t A4960_Helper::write_register(uint8_t*)	16	static,ignoring_inline_asm
+A4960_Helper.hpp:153:8:int8_t A4960_Helper::sgn(int32_t)	16	static
+main.cpp:82:6:void HAL_GPIO_EXTI_Callback(uint16_t)	16	static
+main.cpp:99:5:int main()	48	static
+main.cpp:173:6:void SystemClock_Config()	72	static
+main.cpp:208:13:void MX_CAN_Init()	8	static
+main.cpp:243:13:void MX_SPI1_Init()	8	static
+main.cpp:281:13:void MX_TIM3_Init()	48	static
+main.cpp:328:13:void MX_USART2_UART_Init()	8	static
+main.cpp:361:13:void MX_GPIO_Init()	40	static
+main.cpp:410:6:void StartBLDCTask(const void*)	104	static
+main.cpp:548:6:void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef*)	16	static
+main.cpp:564:6:void Error_Handler()	4	static,ignoring_inline_asm
+main.cpp:571:1:void __static_initialization_and_destruction_0(int, int)	24	static
+main.cpp:571:1:cpp)	8	static
+main.cpp:571:1:cpp)	8	static
